@@ -1,3 +1,5 @@
+package nl.arthurheidt.av.prog3_1718.hw.zoo;
+
 /**
  * An animal to put in a zoo.
  * 

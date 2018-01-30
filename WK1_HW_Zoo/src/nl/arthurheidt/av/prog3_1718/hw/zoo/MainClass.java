@@ -1,3 +1,4 @@
+package nl.arthurheidt.av.prog3_1718.hw.zoo;
 public class MainClass {
 
 	public static void main(String[] args) {
