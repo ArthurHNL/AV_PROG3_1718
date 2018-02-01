@@ -1,4 +1,4 @@
-package nl.arthurheidt.av.prog3_1718.hw.zoo;
+package nl.arthurheidt.av.prog3_1718.hw.wk1.zoo;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;

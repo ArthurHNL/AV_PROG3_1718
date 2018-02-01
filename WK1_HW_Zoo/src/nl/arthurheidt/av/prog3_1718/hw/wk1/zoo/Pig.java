@@ -1,4 +1,4 @@
-package nl.arthurheidt.av.prog3_1718.hw.zoo;
+package nl.arthurheidt.av.prog3_1718.hw.wk1.zoo;
 /**
  * A pig to put in a zoo.
  * @author Arthur Heidt

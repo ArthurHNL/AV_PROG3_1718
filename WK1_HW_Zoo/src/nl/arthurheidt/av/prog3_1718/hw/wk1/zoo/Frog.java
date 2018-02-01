@@ -1,4 +1,4 @@
-package nl.arthurheidt.av.prog3_1718.hw.zoo;
+package nl.arthurheidt.av.prog3_1718.hw.wk1.zoo;
 
 public class Frog extends Animal {
 
