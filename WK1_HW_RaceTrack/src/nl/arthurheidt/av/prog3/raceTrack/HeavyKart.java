@@ -1,4 +1,4 @@
-package nl.arthurheidt.av.raceTrack;
+package nl.arthurheidt.av.prog3.raceTrack;
 
 public class HeavyKart extends Kart {
     public HeavyKart(int number, String color) {

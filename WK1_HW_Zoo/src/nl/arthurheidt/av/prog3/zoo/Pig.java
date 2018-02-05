@@ -1,4 +1,4 @@
-package nl.arthurheidt.av.zoo;
+package nl.arthurheidt.av.prog3.zoo;
 
 public class Pig extends Animal {
 	public Pig(String name) {
