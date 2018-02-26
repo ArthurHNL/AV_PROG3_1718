@@ -3,6 +3,8 @@ package nl.arthurheidt.av.prog3.firstFrame.swing;
 import java.awt.Color;
 import java.awt.Container;
 import java.awt.Dimension;
+import java.awt.GraphicsEnvironment;
+import java.awt.Point;
 import java.awt.Toolkit;
 
 import javax.swing.JFrame;
@@ -24,8 +26,19 @@ public class Main {
 	Dimension size = Toolkit.getDefaultToolkit().getScreenSize();
 	size.setSize((size.getWidth() * 0.25), (size.getHeight() * 0.25));
 	myFrame.setSize(size);
+
+	center(myFrame);
 	myFrame.setResizable(false);
 	myFrame.setVisible(true);
+    }
+
+    private static void center(JFrame f) {
+	GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
+	Point centerPoint = ge.getCenterPoint();
+	
+	int x = (int) (centerPoint.getX() - f.getWidth() / 2);
+	int y = (int) (centerPoint.getY() - f.getHeight() / 2);
+	f.setLocation(x, y);
     }
 
 }
