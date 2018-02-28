@@ -3,12 +3,12 @@ package nl.arthurheidt.pr4b.zilver;
 import java.net.URL;
 import java.util.Random;
 import java.util.ResourceBundle;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
-
 public class FXMLControl implements Initializable{
 	
 	public final static String[] QUOTES = {
