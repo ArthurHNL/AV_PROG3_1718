@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.*?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="nl.arthurheidt.pr4b.zilver.FXMLControl"
+	prefHeight="300" prefWidth="300">
+	<Button fx:id="b" prefHeight="300" prefWidth="300" text="Hello World!"
+		onAction="#buttonClick" wrapText="true" />
+</StackPane>
+

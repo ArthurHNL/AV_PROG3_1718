@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.*?>
+
+<VBox fx:id="vb" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nl.arthurheidt.pr4b.brons.FXMLControl"
+    style="-fx-background-color: red;" prefHeight="300" prefWidth="300">
+	<padding><Insets top="50" right="50" left="50" bottom="50"/></padding>
+	<VBox fx:id="vbChild" prefHeight="250" prefWidth="250" style="-fx-background-color: black;"/>
+</VBox>
+
